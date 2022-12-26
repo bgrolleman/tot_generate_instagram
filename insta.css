@@ -1,0 +1,49 @@
+/* Optimized CSS, you can use as is or adjust to taste */
+body, img {
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 1080px;
+  height: 1080px;
+}
+
+img {
+  position: absolute;
+}
+
+/* Format center image */
+.center {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Tweak this to match image location and size */
+  top: 300px;
+  width: 920px;
+  height: 518px;
+
+  /* This will auto zoom and crop the image */
+  object-fit: cover;
+  filter: drop-shadow(10px 10px 4px #000);
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+
+  /* Define where you want the text */
+  top: 860px;
+  left: 50px;
+  width: 980px;
+
+  /* Set Font Details */
+  font-family: Verdana, sans-serif;
+  font-size: 40pt;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  filter: drop-shadow(10px 10px 4px #000);
+
+}
